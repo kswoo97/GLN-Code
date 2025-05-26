@@ -187,7 +187,7 @@ def zero_shot_link_prediction(target_node_description, candidate_sets, data_type
             
             prompt += "- Paper {0}: [{1}]\n".format(vidx+1, cur_data)
             
-        prompt += "[Instruction] Only return the predicted paper number in the format of [Paper k]. DO NOT include any other words."
+        prompt += "[Instruction] Only return the predicted paper number in the format of [k]. DO NOT include any other words."
         
         
     ## Book
@@ -201,7 +201,7 @@ def zero_shot_link_prediction(target_node_description, candidate_sets, data_type
             
             prompt += "- Book {0}: [{1}]\n".format(vidx+1, cur_data)
             
-        prompt += "[Instruction] Only return the predicted book number in the format of [Book k]. DO NOT include any other words."
+        prompt += "[Instruction] Only return the predicted book number in the format of [k]. DO NOT include any other words."
         
         
     ## Page
@@ -215,7 +215,7 @@ def zero_shot_link_prediction(target_node_description, candidate_sets, data_type
             
             prompt += "- Web page {0}: [{1}]\n".format(vidx+1, cur_data)
             
-        prompt += "[Instruction] Only return the predicted web page number in the format of [Page k]. DO NOT include any other words."
+        prompt += "[Instruction] Only return the predicted web page number in the format of [k]. DO NOT include any other words."
         
     return prompt
 

@@ -56,8 +56,6 @@ if __name__ == "__main__" :
     initial_text = data["initial_node_attributes"]
     one_hop_nodes = []
     
-    target_nodes = target_nodes[:10]
-    
     for v in target_nodes : ## 1st-hop nodes
         
         one_hop_nodes.append(v)
