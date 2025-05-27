@@ -32,7 +32,7 @@
 - **[Storage]** Please download the datasets from [LINK](https://www.dropbox.com/scl/fo/xyhn4mnnw311lof02f3tw/ALGcrX9Er4c2sFgW6BI4AMA?rlkey=5gtzq154fd8r2xzn3l2ubwncl&st=sy4o47rb&dl=0), and put the datasets one aims to use in the folder named `./dataset`.
   - Refer to the ***README file*** in the [LINK](https://www.dropbox.com/scl/fo/xyhn4mnnw311lof02f3tw/ALGcrX9Er4c2sFgW6BI4AMA?rlkey=5gtzq154fd8r2xzn3l2ubwncl&st=sy4o47rb&dl=0).
  
-#### Code details
+#### Details regarding code
 
 - **[Overview]** We support both (1) the encoding process and (2) the downstream task execution of GLN.
   - The encoding process is implemented in `GLN_encoding.py`
