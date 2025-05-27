@@ -42,7 +42,7 @@
 - **[Running]** The Detailed code guideline is as follows.
   - For the ***encoding process***, run as follows:
     ```
-    Python3 GLN_encoding.py -data book -task node -llm gpt
+    python3 GLN_encoding.py -data book -task node -llm gpt
     ```
     - `-data` indicates the dataset one aims to use. Possible options are: `{arxiv, paper, page}`, representing arXiv, History-Book, and Wiki-CS, respectively.
     - `-task` indicates the target downstream task one aims to perform. Possible options are: `{node, edge}`, representing node classification and link prediction, respectively.
@@ -53,7 +53,7 @@
   - For the ***downstream tasks***, run as follows:
     - **[NOTE]** Before running this code, one should locate the generated node representations in the `./gen_results` folder.
     ```
-    Python3 GLN_downstream.py -data book -task node -llm gpt
+    python3 GLN_downstream.py -data book -task node -llm gpt
     ```
     - `-data` indicates the dataset one aims to use. Possible options are: `{arxiv, paper, page}`, representing arXiv, History-Book, and Wiki-CS, respectively.
     - `-task` indicates the target downstream task one aims to perform. Possible options are: `{node, edge}`, representing node classification and link prediction, respectively.
