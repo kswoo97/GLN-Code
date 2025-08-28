@@ -1,6 +1,6 @@
 # Graph Lingual Network (GLN)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![arXiv](https://img.shields.io/badge/arXiv-2505.20742-b31b1b.svg)](https://arxiv.org/abs/2505.20742)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) ![EMNLP 2025](https://img.shields.io/badge/EMNLP-2025-red.svg) [![arXiv](https://img.shields.io/badge/arXiv-2505.20742-b31b1b.svg)](https://arxiv.org/abs/2505.20742)
 
 --------
 
