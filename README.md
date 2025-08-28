@@ -11,7 +11,8 @@
 
 ### Paper overview
 
-- **[Paper]** This is the official implementation of the paper titled "***‘Hello, World!’: Making GNNs Talk with LLMs***" (arXiv link here).
+- **[Paper]** This is the official implementation of the paper titled "***‘Hello, World!’: Making GNNs Talk with LLMs***" (https://arxiv.org/abs/2505.20742).
+- **[Venue]** The paper has been accepted to EMNLP Findings 2025 as a short paper.
 - **[Authors]** The work is a collaboration between ***Sunwoo Kim, Soo Yong Lee, Jaemin Yoo, Kijung Shin***, all from ***Korea Advanced Institute of Science and Technology (KAIST)***.
 - **[Brief overview]** We propose Graph Lingual Network (GLN), a graph neural network where all hidden node representations are expressed as text.
   - To enable this, a large language model (LLM) acts as the message passing module.
